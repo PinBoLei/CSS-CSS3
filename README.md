@@ -129,7 +129,7 @@ CSS3选择器、图片的视觉效果`（圆角、阴影、渐变背景、图片
 ## 7）:lang 伪类
 `:lang 伪类使你有能力为不同的语言定义特殊的规则。在下面的例子中，:lang 类为属性值为 no 的 q 元素定义引号的类型：`
 
-<img src="E:\H5\第三周\day803css选择器\images\pic17.png"/>
+<img src="css选择器\images\pic17.png"/>
 
 ## 5、CSS3 选择器--伪元素
 
