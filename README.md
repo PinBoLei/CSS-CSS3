@@ -349,5 +349,5 @@ border-image-width 图片边框的宽度。
 border-image-repeat图像边框是否应平铺(repeat)、铺满(round)或拉伸(stretch)。
 ```
 ### 13）：颜色特性
-<img src="E:\H5\第三周\day803css选择器\images\pic1.png"/>
+<img src="css选择器\images\pic1.png"/>
 	
