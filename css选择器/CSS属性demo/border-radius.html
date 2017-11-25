@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				width: 200px;
+				height: 200px;
+				background: red;
+				margin: 30px auto;
+				font-size: 20px;
+				text-align: center;
+				 border: 10px solid orange;       		
+				color: #fff;
+				line-height: 40px;
+			}
+			.box1{
+				border-radius: 10px;
+			}
+			.box2{
+				border-radius: 10px 30px;
+			}
+			.box3{
+				border-radius: 10px 30px 80px;
+			}
+			.box4{
+				border-radius: 10px  20px  30px  40px;
+			}
+			.box5{
+				border-radius: 60px  40px  30px  20px / 30px 20px 10px 5px;
+			}
+			.box6{
+				border-radius: 50px 0 0 0; 
+			}
+			.box7{
+				border-top-left-radius: 10px  50px;
+				border-top-right-radius: 20px 60px;
+				border-bottom-left-radius: 20px   60px;
+				border-bottom-right-radius: 30px  50px; 
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1">水平和垂直半径一样</div>
+		<div class="box2">border-radius设置两个值</div>
+		<div class="box3">border-radius设置三个值</div>
+		<div class="box4">border-radius设置4个值</div>
+		<div class="box5">单独设置水平和垂直半径值</div>
+		<div class="box6">单个圆角边框</div>
+		<div class="box7">单独设置</div>
+	
+	</body>
+</html>

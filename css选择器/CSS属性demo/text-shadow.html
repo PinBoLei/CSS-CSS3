@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			border: 1px solid #ccc;
+        	margin: 20px; 
+		}
+	/*1.单边阴影效果*/
+		.top {
+        box-shadow: 0 -2px 0 red;
+      }
+      .right {
+        box-shadow: 2px 0 0 green;
+      }
+      .bottom {
+        box-shadow: 0 2px 0 blue;
+      }
+      .left {
+        box-shadow: -2px 0 0 orange;
+      }	
+      /*2.四边相同阴影效果*/
+     /*（1）只设置阴影模糊半径和阴影颜色*/
+     .box2{
+     	box-shadow: 0 0 10px #06c;
+     }
+     /*（2）只设置扩展半径和阴影颜色*/
+     .box3{
+     	box-shadow: 0 0  0 10px #06c;
+     }
+     /*3.内阴影*/
+    .box4{
+    	 box-shadow: inset 5px 5px 10px #06c;
+    }
+    .box5{
+    	 box-shadow: -5px 0 5px red, 0 5px 5px blue, 5px 0 5px green, 0 -5px 5px orange;
+    }
+    .box6{
+    	  box-shadow: 0 0 0 1px red,
+    0 0 0 5px blue,
+    0 0 0 8px green,
+    0 0 0 12px yellow,
+    0 0 0 16px orange,
+    0 0 0 20px #06c,
+    0 0 0 24px lime;
+    }
+		</style>
+	</head>
+	<body>
+		<div class="box1 top">1.单边阴影效果</div>
+		<div class="box2">2.四边相同阴影效果（1）只设置阴影模糊半径和阴影颜色</div>
+		<div class="box3">（2）只设置扩展半径和阴影颜色</div>
+		<div class="box4">3.内阴影</div>
+		<div class="box5">4.多层阴影</div>
+		<div class="box6">使用box-shadow制作多色边框效果，需要注意模仿border的宽度，在计算宽度时需要减去前面阴影的值，才是显示的颜色宽度。在使用多层级box-shadow时，还需要特别注意阴影的顺序，最先写的阴影将显示在最顶层</div>
+		
+	</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>圆角太极图</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box{
+				width: 400px;
+				height: 400px;
+				background: red;
+				border-radius: 50%;
+				border: 1px solid #666;
+				margin: 90px;
+				position: relative;
+				/*box-shadow: 0 0  5px 10px  red;*/
+			}
+			.left{
+				width: 50%;
+				height: 100%;
+				border-radius:100% 0 0 100%/50% 0px 0px 50%;
+				background: black;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			.right{
+				width: 50%;
+				height: 100%;
+				border-radius:0 100% 100% 0/0 50% 50% 0;
+				background: white;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+			.yuan{
+				width: 50%;
+				height: 50%;
+				border-radius: 50%;
+				background: black;
+				position: absolute;
+				top: 0;
+				left: 25%;
+			}
+			.yuanx{
+				width: 25%;
+				height: 25%;
+				background: white;
+				position: absolute;
+				top: 37.5%;
+				left: 37.5%;
+				border-radius: 50%;
+			}
+			.yuan1{
+				width: 50%;
+				height: 50%;
+				border-radius: 50%;
+				background: white;
+				position: absolute;
+				top: 50%;
+				right: 25%;
+			}
+			.yuanx1{
+				width: 25%;
+				height: 25%;
+				background: black;
+				position: absolute;
+				top: 37.5%;
+				right: 37.5%;
+				border-radius: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="left"></div>
+			<div class="right"></div>
+			<div class="yuan">
+				<div class="yuanx"></div>
+			</div>
+			<div class="yuan1">
+				<div class="yuanx1"></div>
+			</div>
+		</div>
+	</body>
+</html>
